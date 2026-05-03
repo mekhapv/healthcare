@@ -21,6 +21,7 @@ export function Layout() {
       await signOut(auth);
     }
     setUser(null);
+    window.alert('You are signed out.');
     navigate('/login', { replace: true });
   };
 

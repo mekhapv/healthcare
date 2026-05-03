@@ -27,4 +27,5 @@ export type UserSession = {
   uid: string;
   email: string | null;
   displayName: string | null;
+  expiresAt: number;
 };
